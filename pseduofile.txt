@@ -1,0 +1,5 @@
+resource "aws_ec2_instance" "instance1"{
+	ami_id = "ami-anjki12345678"
+	instance_id = "t2.micro"
+	region = "us-west-2"
+}
